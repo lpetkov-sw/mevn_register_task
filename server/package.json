@@ -1,0 +1,22 @@
+{
+  "name": "crowsoft_auth_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lyubomir.galinov.petkov",
+  "license": "GPL",
+  "dependencies": {
+    "@hapi/joi": "^15.1.1",
+    "basic-auth": "^2.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^1.6.5",
+    "nodemon": "^1.19.1",
+    "sequelize": "^5.15.0"
+  }
+}

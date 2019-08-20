@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "root",
+    "password": "DEV_PASSWORD",
+    "database": "DEV_DATABASE_NAME",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "root",
+    "password": "TEST_PASSWORD",
+    "database": "TEST_DATABASE_NAME",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "root",
+    "password": "PRD_PASSWORD",
+    "database": "PRD_DATABASE_NAME",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  }
+}

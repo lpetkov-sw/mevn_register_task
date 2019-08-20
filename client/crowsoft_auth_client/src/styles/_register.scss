@@ -1,0 +1,93 @@
+@import "./variables";
+
+input {
+    &.form-control {
+        border: 0;
+        border-radius: 0;
+        padding: 3px 0px 0px 0px;
+        border-bottom: 2px solid $blue-light;;
+        background-color: transparent;
+        font-size: 1.3em;
+        color: $blue-dark;
+        outline: none;
+        box-shadow: none;
+        
+        &:active,
+        &:focus {
+            background-color: transparent;
+            outline: none;
+            box-shadow: none;
+            color: $blue-dark;
+        }
+    }
+}
+
+.btn.btn-next {
+    border-radius: 50%;
+    border: 4px solid white;
+    width: 46px;
+    height: 46px;
+    background-color: transparent;
+    font-family:'FontAwesome'; 
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    
+    &:after {
+        content: "\f105";
+        position: absolute;
+        top: -4px;
+        left: 0;
+        right: 0;
+        color: white;
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 46px;
+    }
+
+    &:hover {
+        border-color: $blue-light;
+    }
+}
+
+
+.form-control::placeholder {
+    color: $blue-dark;
+    line-height: 1.3em;
+    
+}
+
+.autosuggest-container {
+    display: flex;
+    justify-content: center;
+    width: 280px;
+}
+
+.form-group {
+    position: relative;
+    .autosuggest__results-container {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        background-color: white;
+        
+        .autosuggest__results {
+            margin-top: 16px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            li {
+                text-align: center;
+                cursor: pointer;
+                padding: 3px 8px;
+                color: $blue-dark;
+                &:hover {
+                    background-color: $blue-dark;
+                    color: $blue-light;
+                }
+            }
+        }
+    }
+}
