@@ -4,17 +4,16 @@ Part of task for user registration
 ## Run:
 
 ### Create database:
-> Create MySQL database with UTF-8 encoding
-> Set database connection configurations in '/server/src/config/config.json'
-> Navigate to '/server/src' & run sequilize-cli db:migrate to create your tables
-> Import the csv file '/server/src/db/address_dump.csv' in the Addresses table created by the migration
+> 1. Create MySQL database with UTF-8 encoding  
+> 2. Set database connection configurations in '/server/src/config/config.json'  
+> 3. Navigate to '/server/src' & run sequilize-cli db:migrate to create your tables  
+> 4. Import the csv file '/server/src/db/address_dump.csv' in the Addresses table created by the migration  
 
 ### Start server:
-> Navigate to '/server' and run 'npm start'
+> 1. Navigate to '/server' and run 'npm start'  
 
 ### Start client:
-> Navigate to '/client/crowsoft_auth_client' and run 'npm run serve'
-
+> 2. Navigate to '/client/crowsoft_auth_client' and run 'npm run serve'  
 
 
 
