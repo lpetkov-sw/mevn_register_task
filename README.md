@@ -3,6 +3,10 @@ Part of task for user registration
 
 ## Run:
 
+### Install dependencies
+> 1. Run npm install in the '/server' directory  
+> 2. Run npm install in the '/client/crowsoft_auth_client' directory  
+
 ### Create database:
 > 1. Create MySQL database with UTF-8 encoding  
 > 2. Set database connection configurations in '/server/src/config/config.json'  
